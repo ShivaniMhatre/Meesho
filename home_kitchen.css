@@ -268,13 +268,13 @@
     padding: 10px 25px;
     color: rgb(159,38,146);
 }
-#gender {
+#color {
     width: 90%;
     border-bottom: 1px solid gray;
     margin: 15px 10px;
 }
 
-#gender>h4 {
+#color>h4 {
     padding: 10px 10px;
 }
 
@@ -320,7 +320,7 @@
 
 .detail {
     padding: 10px 10px;
-    line-height: 25px;
+    line-height: 30px;
 }
 .detail>span{
     font-size: 14px;
@@ -338,17 +338,19 @@
 .detail>div:nth-child(4)>div:nth-child(1){
     width: 60px;
     height: 30px;
-    background-color: rgb(35,187,117);
+    /* background-color: rgb(35,187,117); */
+    border: 1px solid gray;
     border-radius: 50px;
     display: flex;
     align-items: center;
     padding-left: 10px;
     margin-top: 10px;
+    color: skyblue;
 }
 .detail>div:nth-child(4)>div:nth-child(2){
     margin: 15px;
 }
 .detail>div:nth-child(4)>div>i{
     padding-left: 5px;
-    color: white;
+    color: skyblue;
 }

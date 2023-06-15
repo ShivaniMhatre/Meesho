@@ -41,6 +41,11 @@
     align-items: center;
 }
 
+#logo>div>a{
+    text-decoration: none;
+    color: none;
+}
+
 #logo>div>h1 {
     /* width: 100%;
     height: 40px; */
