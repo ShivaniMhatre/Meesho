@@ -1,404 +1,92 @@
-#main {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-    /* border-top: 1px solid rgb(220, 217, 217); */
-  }
-  
-  #allfilter {
-    width: 17%;
+#left{
+    width: 45%;
+    height: 100%;
     /* border: 1px solid black; */
-    border-right: 1px solid rgb(220, 217, 217);
-  }
-  
-  #filter-1 {
-    border-bottom: 1px solid rgb(220, 217, 217);
-    padding-bottom: 20px;
-  
-  }
-  
-  #filter-1>h4 {
-    padding: 10px 25px;
-  }
-  
-  .left {
     display: flex;
-    padding-left: 25px;
-  }
-  
-  .left>p {
-    padding-left: 10px;
-  }
-  
-  #filter-2 {
-    border-bottom: 1px solid rgb(220, 217, 217);
-    padding-bottom: 20px;
-  }
-  
-  #filter-2>h4 {
-    padding: 10px 25px;
-  }
-  
-  #filter-2>p {
-    color: rgb(255, 129, 157);
-    padding: 5px 30px;
-  }
-  
-  #filter-3 {
-    border-bottom: 1px solid rgb(220, 217, 217);
-    padding-bottom: 20px;
-  }
-  
-  #filter-3>h4 {
-    padding: 10px 25px;
-  }
-  
-  #filter-4 {
-    border-bottom: 1px solid rgb(220, 217, 217);
-    padding-bottom: 20px;
-  }
-  
-  #filter-4>h4 {
-    padding: 10px 25px;
-  }
-  
-  .color-size {
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    margin: 5px 5px;
-  }
-  
-  #green {
-    background-color: green;
-  }
-  
-  #navy {
-    background-color: navy;
-  }
-  
-  #pink {
-    background-color: pink;
-  }
-  
-  #yellow {
-    background-color: yellow;
-  }
-  
-  #black {
-    background-color: black;
-  }
-  
-  #gray {
-    background-color: gray;
-  }
-  
-  #red {
-    background-color: red;
-  }
-  
-  #yellowgreen {
-    background-color: yellowgreen;
-  }
-  
-  #filter-4>p {
-    color: rgb(255, 129, 157);
-    /* padding: 5px 30px; */
-  }
-  
-  #filter-5 {
-    /* border-bottom: 1px solid rgb(220, 217, 217); */
-    padding-bottom: 20px;
-  }
-  
-  #filter-5>h4 {
-    padding: 10px 25px;
-  }
-  
-  #product {
-    width: 80%;
-    /* border: 2px solid red; */
-    display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
     
-  }
-  #image{
-    width: 21%;
-    height: 350px;
-    /* border: 1px solid black; */
+}
+#left1{
+    width: 25%;
+    height: 500px;
+    /* border: 1px solid green; */
+}
+#left1>div{
+    width: 50%;
+    height: 20%;
+    /* border: 1px solid blue; */
+    margin: auto;
     margin-top: 10px;
-  }
-  .imgsize{
+}
+#left1>div>img{
     width: 100%;
-    height: 250px;
-    /* border: 1px solid black; */
-  }
-  .imgsize>img{
+    height: 100%;
+}
+#left2{
+    width: 60%;
+    height: 100%;
+    border: 1px solid black;
+    margin-top: 10px;
+    
+    /* border-radius: 10px; */
+}
+#left2>div>img{
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+}
+#inner1{
+    width: 90%;
+    height: 90%;
+    /* border: 1px solid red; */
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+#inner2{
+    width: 90%;
+    height: 100%;
+    border: 1px solid red;
+    margin: 15px 15px;
+    /* margin-left: 15px; */
+
+    display: flex;
+    justify-content: space-around;
+}
+#inner2>div:nth-child(1){
+    width: 35%;
+    height: 100%;
+    border: 1px solid rgb(159,32,137);
+    text-align: center;
+    border-radius: 10px;
+    color: rgb(159,32,137);
+}
+#inner2>div:nth-child(2){
+    width: 20%;
+    height: 100%;
+    background-color: rgb(159,32,137);
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+#inner3{
+    width: 90%;
+    /* height: 100%; */
+    border: 1px solid red;
+    margin: 15px 15px;
+    /* margin-left: 15px; */
+
+    /* display: flex;
+    justify-content: space-around; */
+}
+#inner3>div>div{
+    width: 15%;
+    height: 90%;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+#inner3>div>img{
     width: 100%;
     height: 100%;
     box-sizing: border-box;
-  }
-  .detail {
-    padding-left: 10px;
-  }
-  
-  .line-through {
-    text-decoration: line-through;
-    font-size: 0.9em;
-    color: grey;
-  }
-  
-  .span-color {
-    color: orange;
-    font-size: 0.9em;
-  }
-
-
-
-
-  <div id="main">
-                <div id="allfilter">
-                    <div id="filter-1">
-                        <h4>CATEGORIES</h4>
-                        <div class="left">
-                            <input type="checkbox">
-                            <p>Tshirts(96183)</p>
-                        </div>
-                        <div class="left">
-                            <input type="checkbox">
-                            <p>Lounge Tshirts(1064)</p>
-                        </div>
-                    </div>
-                    <div id="filter-2">
-                        <h4>BRAND</h4>
-                        <div class="left">
-                            <input type="checkbox">
-                            <p>U.S. Polo Assn.(198)</p>
-                        </div>
-                        <div class="left">
-                            <input type="checkbox">
-                            <p>Lounge Tshirts(1064)</p>
-                        </div>
-                        <div class="left">
-                            <input type="checkbox">
-                            <p>Roadster(3984)</p>
-                        </div>
-                        <div class="left">
-                            <input type="checkbox">
-                            <p>Jockey(81)</p>
-                        </div>
-                        <div class="left">
-                            <input type="checkbox">
-                            <p>Van Heusen(65)</p>
-                        </div>
-                        <div class="left">
-                            <input type="checkbox">
-                            <p>Almo Wear(54)</p>
-                        </div>
-                        <div class="left">
-                            <input type="checkbox">
-                            <p>Almo Wear(54)</p>
-                        </div>
-                        <p>+ 654 more</p>
-                    </div>
-                    <div id="filter-3">
-                        <h4>PRICE</h4>
-                        <div class="left">
-                            <input type="checkbox">
-                            <p>Rs. 244 to Rs. 533(76)</p>
-                        </div>
-                        <div class="left">
-                            <input type="checkbox">
-                            <p>Rs. 533 to Rs. 822(8)</p>
-                        </div>
-                        <div class="left">
-                            <input type="checkbox">
-                            <p>Rs. 822 to Rs. 1111(2)</p>
-                        </div>
-                    </div>
-                    <div id="filter-4">
-                        <h4>COLOR</h4>
-                        <div class="left">
-                            <input type="checkbox">
-                            <p class="color-size" id="navy"></p>
-                            <p>Navy Blue (12)</p>
-                        </div>
-                        <div class="left">
-                            <input type="checkbox">
-                            <p class="color-size" id="pink"></p>
-                            <p>Pink (10)</p>
-                        </div>
-                        <div class="left">
-                            <input type="checkbox">
-                            <p class="color-size" id="black"></p>
-                            <p>Black (10)</p>
-                        </div>
-                        <div class="left">
-                            <input type="checkbox">
-                            <p class="color-size" id="green"></p>
-                            <p>Green (8)</p>
-                        </div>
-                        <div class="left">
-                            <input type="checkbox">
-                            <p class="color-size" id="yellow"></p>
-                            <p>Yellow (5)</p>
-                        </div>
-                        <div class="left">
-                            <input type="checkbox">
-                            <p class="color-size" id="gray"></p>
-                            <p>Gray (10)</p>
-                        </div>
-                        <div class="left">
-                            <input type="checkbox">
-                            <p class="color-size" id="red"></p>
-                            <p>Red (25)</p>
-                        </div>
-                        <div class="left">
-                            <input type="checkbox">
-                            <p class="color-size" id="yellowgreen"></p>
-                            <p>Yellowgreen (15)</p>
-                        </div>
-                        <p>+30 more</p>
-                    </div>
-                    <div id="filter-5">
-                        <h4>DISCOUNT RANGE</h4>
-                        <div class="left">
-                            <input type="checkbox">
-                            <p>10% and Above</p>
-                        </div>
-                        <div class="left">
-                            <input type="checkbox">
-                            <p>20% and Above</p>
-                        </div>
-                        <div class="left">
-                            <input type="checkbox">
-                            <p>30% and Above</p>
-                        </div>
-                        <div class="left">
-                            <input type="checkbox">
-                            <p>40% and Above</p>
-                        </div>
-                        <div class="left">
-                            <input type="checkbox">
-                            <p>50% and Above</p>
-                        </div>
-                    </div>
-                </div>
-                <div id="product">
-                    <div id="image">
-                        <div class="imgsize">
-                            <img
-                                src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/21264196/2023/3/21/c254cf8b-b819-46ca-a675-d84439f3f61f1679398193830-Nautica-Men-Tshirts-4401679398193386-1.jpg">
-                        </div>
-                        <div class="detail">
-                            <h4>United Colors of Benetton</h4>
-                            <p>Polo Collar Cotton T-shirt</p>
-                            <p>
-                                <b>Rs.1874</b> <span class="line-through"> Rs.2499</span>
-                                <span class="span-color"> (25% OFF)</span>
-                            </p>
-                        </div>
-                    </div>
-                    <div id="image">
-                        <div class="imgsize">
-                            <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/18744968/2023/1/5/8d2f811b-3aa0-4cc9-a2f4-6e3a601349001672909438522-The-Souled-Store-Men-Lavender-Solid-Round-Neck-Oversized-T-S-4.jpg"
-                                alt="" />
-                        </div>
-                        <div class="detail">
-                            <h4>United Colors of Benetton</h4>
-                            <p>Polo Collar Cotton T-shirt</p>
-                            <p>
-                                <b>Rs.1874</b> <span class="line-through"> Rs.2499</span>
-                                <span class="span-color"> (25% OFF)</span>
-                            </p>
-                        </div>
-                    </div>
-                    <div id="image">
-                        <div class="imgsize">
-                            <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2019/12/12/1aab2a18-6774-4f83-b292-fe301755a3351576102551329-1.jpg"
-                                alt="" />
-                        </div>
-                        <div class="detail">
-                            <h4>United Colors of Benetton</h4>
-                            <p>Polo Collar Cotton T-shirt</p>
-                            <p>
-                                <b>Rs.1874</b> <span class="line-through"> Rs.2499</span>
-                                <span class="span-color"> (25% OFF)</span>
-                            </p>
-                        </div>
-                    </div>
-                    <div id="image">
-                        <div class="imgsize">
-                            <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/19182778/2022/11/30/8cb06057-fb75-47e4-bb9b-9045b67065171669788609173-US-Polo-Assn-Men-Tshirts-4581669788608713-1.jpg"
-                                alt="" />
-                        </div>
-                        <div class="detail">
-                            <h4>United Colors of Benetton</h4>
-                            <p>Polo Collar Cotton T-shirt</p>
-                            <p>
-                                <b>Rs.1874</b> <span class="line-through"> Rs.2499</span>
-                                <span class="span-color"> (25% OFF)</span>
-                            </p>
-                        </div>
-                    </div>
-                    <div id="image">
-                        <div class="imgsize">
-                            <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/1700944/2019/6/8/488007ef-c65e-4a2f-a92b-65b6846894861559989274078-HRX-by-Hrithik-Roshan-Men-Yellow-Printed-Round-Neck-T-Shirt--1.jpg"
-                                alt="" />
-                        </div>
-                        <div class="deatil">
-                            <h4>United Colors of Benetton</h4>
-                            <p>Polo Collar Cotton T-shirt</p>
-                            <p>
-                                <b>Rs.1874</b> <span class="line-through"> Rs.2499</span>
-                                <span class="span-color"> (25% OFF)</span>
-                            </p>
-                        </div>
-                    </div>
-                    <div id="image">
-                        <div class="imgsize">
-                            <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/21936204/2023/2/23/3b28afbe-be23-4b8e-95ae-3f491b8443311677136300630-Louis-Philippe-Sport-Men-Tshirts-4901677136300112-1.jpg"
-                                alt="" />
-                        </div>
-                        <div class="detail">
-                            <h4>United Colors of Benetton</h4>
-                            <p>Polo Collar Cotton T-shirt</p>
-                            <p>
-                                <b>Rs.1874</b> <span class="line-through"> Rs.2499</span>
-                                <span class="span-color"> (25% OFF)</span>
-                            </p>
-                        </div>
-                    </div>
-                    <div id="image">
-                        <div class="imgsize">
-                            <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/23092278/2023/5/9/bd12200a-9672-4d0b-acda-906a321702981683622373752berrybluesMenOliveGreenPrintedPocketsT-shirt1.jpg"
-                                alt="" />
-                        </div>
-                        <div class="detail">
-                            <h4>United Colors of Benetton</h4>
-                            <p>Polo Collar Cotton T-shirt</p>
-                            <p>
-                                <b>Rs.1874</b> <span class="line-through"> Rs.2499</span>
-                                <span class="span-color"> (25% OFF)</span>
-                            </p>
-                        </div>
-                    </div>
-
-                    <div id="image">
-                        <div class="imgsize">
-                            <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/23176182/2023/5/13/4060c773-b708-4835-b78a-e77b9042a7281683989678544JordanDri-FITSportBreakfastClubMensMeshJersey1.jpg"
-                                alt="" />
-                        </div>
-                        <div class="detail">
-                            <h4>United Colors of Benetton</h4>
-                            <p>Polo Collar Cotton T-shirt</p>
-                            <p>
-                                <b>Rs.1874</b> <span class="line-through"> Rs.2499</span>
-                                <span class="span-color"> (25% OFF)</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+}
